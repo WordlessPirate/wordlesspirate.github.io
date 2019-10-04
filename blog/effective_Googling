@@ -1,0 +1,22 @@
+---
+title: "Effective Googling"
+date: 2019-10-02T22:00:00+01:00
+draft: false
+---
+As my very recent coding journey progresses and deepens, I am forced to face increasingly harder questions. One that has been on the back of my mind lately is how much it is O.K.to Google for resources.
+Some people say you are not supposed to memorize resources that are easily accessible via documentation, such as the difference between slice and splice in JavaScript.
+Others defend that a fundamental understanding of how the basics work is required, and that there are things you should be memorizing.
+Taking Codewars as an example, how O.K. is it to Google for the resources you need, versus Googling for the solution, if you get really stuck?
+Personally, Googling for a solution, as long as you try to understand how it works instead of copying and pasting, can be a good thing – you might have thought of solving the problem one way and getting another perspective can be a good thing.
+What I have a problem, however, is with the recurrent application of this practice.
+The way I see it, and bare in mind my experience is still scarce, this would be the ideal approach:
+-	Learn the fundamentals and practice them as you go. As I said in an earlier post, the sooner you get practicing, the better.
+-	After getting a good grasp of the fundamentals, try some harder exercises.
+-	If you get stuck, use the documentation at your disposal.
+-	If you get really stuck, try Google for a solution (one that you understand and would be able to explain step by step to another person if need be).
+-	Keep practicing.
+If you keep getting back to the point where you have to Google for solutions all the time, or can only solve a problem by Googling each step of code you write, I would recommend going one step backwards.
+Try reading about problem solving, as it applies to coding. Try breaking your problems into tinier pieces. What I usually do, specially in what katas are concerned, is make a few comments on the top, so that I can make sure that not only I understood what is being required of me, as well as the steps necessary to reach it and possible solutions to achieve it. Another thing I do, and I find tremendously helpful, is console.logging my code as I go – it allows me to get a better sense of what is going on and in some cases, even correct some mistakes.
+Despite these modest best practices I have been trying to apply, people have been saying Google is my new best friend – and I don’t disagree. Why memorize some more obscure string or array methods I can easily find in the documentation, when I can apply that mental energy into learning and improving my problem solving skills, and better understand the logic behind some programming decisions?
+I was reading about this topic and apparently both self-taught and experienced software developers feel haunted by the way technology has come to make out lives easier, but also harder – some of them even question if they are indeed software developers or just copy-pasters.
+Which I guess is why this question bother me so. At a time I am just starting to take my first steps into this world, it seems that I have already found some pitfalls I might try to avoid.
