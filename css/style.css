@@ -1,0 +1,28 @@
+.rabuja {
+    color: blueviolet;
+}
+
+.navbar {
+    font-size: 20pt;
+    color: black;
+  }
+
+  .links {
+    font-size: 14pt;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  }
+
+  .container-1 {
+    display: flex;
+    border-style: dotted;
+    border-color: black;
+  }
+
+
+
+p {
+    font-size: 14pt;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+  }
