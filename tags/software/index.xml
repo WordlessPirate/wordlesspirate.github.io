@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Vanessa Correia&#39;s Portfolio</title>
+    <link>http://example.org/tags/software/</link>
+    <description>Recent content in software on Vanessa Correia&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2020 15:37:38 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Third Post</title>
+      <link>http://example.org/posts/2020/08/third-post/</link>
+      <pubDate>Mon, 03 Aug 2020 15:37:38 +0100</pubDate>
+      
+      <guid>http://example.org/posts/2020/08/third-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare tempus ultrices. Phasellus nec neque vitae libero auctor suscipit sit amet in tellus. Donec justo orci, suscipit nec neque nec, accumsan commodo nisl. Donec vehicula dignissim ante, non congue nunc aliquet quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac orci ac urna tristique feugiat. Ut auctor, nibh eget egestas vulputate, justo nibh rhoncus ligula, eu blandit ante erat a sem. Maecenas sem neque, finibus ac lectus at, imperdiet placerat arcu. Vivamus quam nulla, condimentum non lorem in, ornare molestie metus. Nunc turpis lorem, luctus at magna placerat, volutpat suscipit quam. Phasellus ornare scelerisque lectus et scelerisque.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://example.org/posts/2020/08/second-post/</link>
+      <pubDate>Mon, 03 Aug 2020 15:20:04 +0100</pubDate>
+      
+      <guid>http://example.org/posts/2020/08/second-post/</guid>
+      <description>&lt;p&gt;Fusce ornare tempus ultrices. Phasellus nec neque vitae libero auctor suscipit sit amet in tellus.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/2020/07/first-post/</link>
+      <pubDate>Fri, 31 Jul 2020 16:29:10 +0100</pubDate>
+      
+      <guid>http://example.org/posts/2020/07/first-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

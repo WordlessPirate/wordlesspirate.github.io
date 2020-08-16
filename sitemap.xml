@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/08/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/month/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/personal/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/software/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/08/third-post/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/thoughts/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/year/</loc>
+    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/08/second-post/</loc>
+    <lastmod>2020-08-03T15:20:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/01/</loc>
+    <lastmod>2020-07-31T16:29:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/07/first-post/</loc>
+    <lastmod>2020-07-31T16:29:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/opensource/</loc>
+    <lastmod>2020-07-31T14:52:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2020-07-08T15:21:41+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/resume/</loc>
+    <lastmod>2020-07-08T15:10:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-07-08T14:51:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/10/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/awesomeco/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/jabberwocky/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/linkitivity/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/</loc>
+  </url>
+  
+</urlset>
