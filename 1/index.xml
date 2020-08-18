@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Vanessa Correia&#39;s Portfolio</title>
-    <link>http://example.org/1/</link>
+    <link>https://www.vanessacorreia.com/1/</link>
     <description>Recent content in 1 on Vanessa Correia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.vanessacorreia.com/1/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Month on Vanessa Correia&#39;s Portfolio</title>
-    <link>http://example.org/month/</link>
+    <link>https://www.vanessacorreia.com/month/</link>
     <description>Recent content in Month on Vanessa Correia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Aug 2020 17:10:18 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/month/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.vanessacorreia.com/month/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2020/08</title>
-      <link>http://example.org/posts/2020/08/</link>
+      <link>https://www.vanessacorreia.com/posts/2020/08/</link>
       <pubDate>Mon, 17 Aug 2020 17:10:18 +0100</pubDate>
       
-      <guid>http://example.org/posts/2020/08/</guid>
+      <guid>https://www.vanessacorreia.com/posts/2020/08/</guid>
       <description></description>
     </item>
     

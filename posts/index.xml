@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Vanessa Correia&#39;s Portfolio</title>
-    <link>http://example.org/posts/</link>
+    <link>https://www.vanessacorreia.com/posts/</link>
     <description>Recent content in Posts on Vanessa Correia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Aug 2020 17:10:18 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.vanessacorreia.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What Is This All About</title>
-      <link>http://example.org/posts/2020/08/what-is-this-all-about/</link>
+      <link>https://www.vanessacorreia.com/posts/2020/08/what-is-this-all-about/</link>
       <pubDate>Mon, 17 Aug 2020 17:10:18 +0100</pubDate>
       
-      <guid>http://example.org/posts/2020/08/what-is-this-all-about/</guid>
+      <guid>https://www.vanessacorreia.com/posts/2020/08/what-is-this-all-about/</guid>
       <description>&lt;p&gt;&lt;code&gt;this&lt;/code&gt; is a JavaScript keyword that refers to the object it belongs to. However, it has different values depending on where it is used. Let&amp;rsquo;s break &lt;code&gt;this&lt;/code&gt; down so as to fully undertand what is is, where and why it is used and why the scope of it plays an important rule.&lt;/p&gt;</description>
     </item>
     
