@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Vanessa Correia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2020 17:02:48 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 17:10:18 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Fundamentals</title>
       <link>http://example.org/tags/fundamentals/</link>
-      <pubDate>Mon, 17 Aug 2020 17:02:48 +0100</pubDate>
+      <pubDate>Mon, 17 Aug 2020 17:10:18 +0100</pubDate>
       
       <guid>http://example.org/tags/fundamentals/</guid>
       <description></description>
@@ -23,27 +23,9 @@
     <item>
       <title>JavaScript</title>
       <link>http://example.org/tags/javascript/</link>
-      <pubDate>Mon, 17 Aug 2020 17:02:48 +0100</pubDate>
+      <pubDate>Mon, 17 Aug 2020 17:10:18 +0100</pubDate>
       
       <guid>http://example.org/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>http://example.org/tags/html/</link>
-      <pubDate>Mon, 03 Aug 2020 15:37:38 +0100</pubDate>
-      
-      <guid>http://example.org/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>http://example.org/tags/software/</link>
-      <pubDate>Mon, 03 Aug 2020 15:37:38 +0100</pubDate>
-      
-      <guid>http://example.org/tags/software/</guid>
       <description></description>
     </item>
     

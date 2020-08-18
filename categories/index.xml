@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Vanessa Correia&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2020 17:02:48 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 17:10:18 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,9 @@
     <item>
       <title>Thoughts</title>
       <link>http://example.org/categories/thoughts/</link>
-      <pubDate>Mon, 17 Aug 2020 17:02:48 +0100</pubDate>
+      <pubDate>Mon, 17 Aug 2020 17:10:18 +0100</pubDate>
       
       <guid>http://example.org/categories/thoughts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>http://example.org/categories/personal/</link>
-      <pubDate>Mon, 03 Aug 2020 15:37:38 +0100</pubDate>
-      
-      <guid>http://example.org/categories/personal/</guid>
       <description></description>
     </item>
     
