@@ -4,32 +4,67 @@
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/posts/2020/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/posts/2020/08/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/categories/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/html/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
+    <loc>http://example.org/tags/fundamentals/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/javascript/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/month/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/thoughts/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/2020/08/what-is-this-all-about/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/year/</loc>
+    <lastmod>2020-08-17T17:02:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html/</loc>
     <lastmod>2020-08-03T15:37:38+01:00</lastmod>
   </url>
   
@@ -39,32 +74,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/tags/software/</loc>
     <lastmod>2020-08-03T15:37:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/posts/2020/08/third-post/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/thoughts/</loc>
-    <lastmod>2020-08-03T15:37:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/year/</loc>
     <lastmod>2020-08-03T15:37:38+01:00</lastmod>
   </url>
   
@@ -104,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/10/</loc>
+    <loc>http://example.org/1/</loc>
   </url>
   
   <url>

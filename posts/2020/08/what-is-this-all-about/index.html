@@ -3,7 +3,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Categories -
+  <title>What is `this` all about? -
     Vanessa Correia&#39;s Portfolio</title>
   <meta name="author" content="Vanessa Correia" />
   <meta
@@ -203,18 +203,224 @@
   <a href="/contact">Contact</a>
 </nav>
 <main>
+<article class="post">
+  <header>
+    <h2>What is `this` all about?</h2>
+    <p>
+      By Vanessa Correia
+    </p>
+    <p>
+      Posted August 17, 2020
+      <span class="tags">
+        in
+        
+        <a class="tag" href=" /tags/javascript">JavaScript</a>
+        
+        <a class="tag" href=" /tags/fundamentals">Fundamentals</a>
+        
+      </span>
+    </p>
+    <p>
+      Reading time: 4 minutes.
+    </p>
+  </header>
 
-<h2>Categories</h2>
+  <section class="body">
 
+    <p><code>this</code> is a JavaScript keyword that refers to the object it belongs to. However, it has different values depending on where it is used. Let&rsquo;s break <code>this</code> down so as to fully undertand what is is, where and why it is used and why the scope of it plays an important rule.</p>
 
-<ul>
-  
-  <li><a href="/categories/thoughts/">Thoughts</a></li>
-  
-  <li><a href="/categories/personal/">Personal</a></li>
-  
-</ul>
+<!-- \* _(Although there are other languages who make use of the `this` keyword, for the purpose of this article we are only going to consider its behaviour in JavaScript.)_ -->
 
+<!-- `this` is a JavaScript keyword that refers to the object it belongs to. However, it has different values depending on where it is used. Let's break `this` down so as to fully undertand what it is, where and why it is used and how scope also plays an important role. -->
+
+<p>First things first, lets list all the possible values <code>this</code> may assume:</p>
+
+<h2 id="span-style-color-darkcyan-alone-this-refers-to-the-global-object-span"><span style="color: DarkCyan">Alone, <code>this</code> refers to the global object.</span></h2>
+
+<p>If we were to simply type and run <code>console.log(this)</code> in our terminal, we would see a very long and scary object being print into our console.</p>
+
+<p>That is the global object, which in JavaScript, it is always defined.</p>
+
+<p>Similarly, if we were to open our console in the browser and type and run <code>console.log(this)</code> as well, we would see that our code comes up as being part of the Windown object.</p>
+
+<h2 id="span-style-color-darkcyan-in-a-function-this-refers-to-the-global-object-span"><span style="color: DarkCyan">In a function, <code>this</code> refers to the global object.</span></h2>
+
+<p>It was previously mentioned that <code>this</code> is a JavaScript keyword that refers to the object it belongs to. So what happens if we use <code>this</code> in a regular function?</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	play() {
+	console.log(this);
+	}
+}
+
+function playSongs() {
+    console.log(this);
+}
+
+playSongs();
+</code></pre>
+
+<p>Notice that the <code>playSongs</code> function is not declared within the <code>playlist</code> object.</p>
+
+<p>Therefore, <code>this</code> now logs the global object (which will be window in the browser and the global object in Node).</p>
+
+<h2 id="span-style-color-darkcyan-in-a-function-in-strict-mode-this-is-undefined-span"><span style="color: DarkCyan">In a function, in strict mode, <code>this</code> is undefined.</span></h2>
+
+<p>In the previous example, we witnessed default binding. Something to take into consideration is that if we replicated the previous example in <code>strict mode</code>, <code>this</code> would be undefined, because default binding is not allowed in strict mode.</p>
+
+<h2 id="span-style-color-darkcyan-in-an-event-this-refers-to-the-element-that-received-the-event-span"><span style="color: DarkCyan">In an event, <code>this</code> refers to the element that received the event.<span></h2>
+
+<p>This one is maybe easier to visualize with an example:</p>
+
+<pre><code class="language-html"> &lt;button onclick=&quot;this.style.display='none'&quot;&gt;
+  Click to Remove Me!
+&lt;/button&gt; 
+</code></pre>
+
+<p>As we can see, the <code>onclick</code> event is attached to the button, therefore <code>this</code> will be tied to that specific event, in that specific button.</p>
+
+<h2 id="span-style-color-darkcyan-in-a-method-this-refers-to-the-owner-object-span"><span style="color: DarkCyan">In a <strong>method</strong>, <code>this</code> refers to the owner object.</span></h2>
+
+<p>A method is basically a function within an object, acting as a property of said object. Lets illustrate this with an example:</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	play() {
+	console.log(this);
+	}
+}
+
+playlist.play();
+</code></pre>
+
+<p>Since <code>play()</code> is a method in the <code>playlist</code> object, <code>this</code> is referencing the object itself:</p>
+
+<pre><code class="language-javascript">{ title: 'Roadtrip Songs', play: [Function: play] }
+</code></pre>
+
+<p>We can therefore conclude that if we use <code>this</code> from withing an object method, it will point to the &ldquo;owner&rdquo; of the method, which in this case is <code>playlist</code>.</p>
+
+<p>This would remain true even if we added further methods to <code>playlist</code>:</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	play() {
+	console.log(this);
+	}
+}
+
+playlist.stop = function() {
+    console.log(this);
+}
+
+playlist.stop();
+</code></pre>
+
+<pre><code class="language-javascript">{ title: 'Roadtrip Songs',
+  play: [Function: play],
+  stop: [Function] }
+</code></pre>
+
+<p>This would not be the case if we were using a constructor function:</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	play() {
+	console.log(this);
+	}
+}
+
+function Playlist(title) {
+    this.title = title
+    console.log(this);
+}
+
+const p = new Playlist(&quot;Running Songs&quot;)
+</code></pre>
+
+<p>Since we are making use of the <code>new</code> keyword to create a new instance of <code>Playlist</code>, <code>this</code> now references a new object:</p>
+
+<pre><code class="language-javascript">Playlist { title: 'Running Songs' }
+</code></pre>
+
+<p>Another thing we should consider is the behaviour of <code>this</code> within callback functions.</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	genres: [&quot;pop&quot;, &quot;rock&quot;, &quot;indie&quot;],
+	displayGenres() {
+	this.genres.forEach(function(genre) {
+	console.log(this.title, genre);
+	})
+	}
+}
+
+playlist.displayGenres()
+</code></pre>
+
+<p>The code above results in the following:</p>
+
+<pre><code class="language-javascript">undefined 'pop'
+undefined 'rock'
+undefined 'indie'
+</code></pre>
+
+<p>Why? Because <code>this</code> is still referencing the <code>global</code> object. Although we are inside the <code>playlist</code> object, the function were we are attempting to make use of <code>this</code> is  a regular function, hence the <code>undefined</code>.</p>
+
+<p>In order to solve this, what we can do is make use of the second parameter (<code>thisArg</code>) of the <code>forEach</code>:</p>
+
+<pre><code class="language-javascript">const playlist = {
+	title: &quot;Roadtrip Songs&quot;,
+	genres: [&quot;pop&quot;, &quot;rock&quot;, &quot;indie&quot;],
+	displayGenres() {
+	this.genres.forEach(function(genre) {
+	console.log(this.title, genre);
+	}, this)
+	}
+}
+
+playlist.displayGenres()
+</code></pre>
+
+<p>By doing so, we are able to achieve the intended result:</p>
+
+<pre><code class="language-javascript">Roadtrip Songs pop
+Roadtrip Songs rock
+Roadtrip Songs indie
+</code></pre>
+
+<p>We would ran into a similar problem if we attempted to use an arrow function, since arrow fuctions always bind to the global object.</p>
+
+<h2 id="span-style-color-darkcyan-methods-like-call-and-apply-can-refer-this-to-any-object-span"><span style="color: DarkCyan">Methods like <code>call()</code> and <code>apply()</code> can refer <code>this</code> to any object.</span></h2>
+
+<p>Although <code>call()</code> and <code>apply()</code> are methods, they are predefined JavaScript methods.</p>
+
+<p>This means that both of them can be used to call an object method with another object as argument:</p>
+
+<pre><code class="language-javascript"> let playlist1 = {
+  playlistTitle: function() {
+    return this.firstSong + &quot; &quot; + this.lastSong;
+  }
+}
+
+let playlist2 = {
+  firstSong:&quot;Run to You&quot;,
+  lastSong: &quot;7 Rings&quot;,
+}
+playlist1.playlistTitle.call(playlist2);  // Will return &quot;Run to You 7 Rings&quot; 
+</code></pre>
+
+<p>As we can see, <code>this</code> refers to <code>playlist2</code>, even if it is a method of <code>playlist1</code>.</p>
+
+<h3 id="span-style-color-darkcyan-in-conclusion-span"><span style="color: DarkCyan">In conclusion</span></h3>
+
+<p>Although it seems an easy enough concept to grasp, <code>this</code> can become a slippery slope if we don&rsquo;t take into account how the way it is used may play a role in its value and, ultimately, in the accuracy and correctness of our code.</p>
+
+<p>Main concepts to keep in mind are the fact that in can be used in <code>strict mode</code> and that will affect what <code>this</code> will bind too. The behaviour of <code>this</code> is also quite diferent depending on the type of function we are using - object method, pre-defined method, regular functions, callback functions and even arrow functions.</p>
+  </section>
+
+</article>
 
       </main><footer>
   <small>Copyright 2020 VC</small>
